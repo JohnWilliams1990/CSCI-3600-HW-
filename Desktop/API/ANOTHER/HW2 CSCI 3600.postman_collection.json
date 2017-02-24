@@ -1,0 +1,227 @@
+{
+	"variables": [],
+	"info": {
+		"name": "HW2 CSCI 3600",
+		"_postman_id": "c7c8a84d-6a4a-99d6-fe70-1ab6d01a3937",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET on /get",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/get?q=book_title&M=MAPLE&s=somepner",
+				"method": "GET",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST on /post",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/post?q=book_title&M=MAPLE&s=somepner",
+				"method": "POST",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT on /put",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/put?q=book_title&M=MAPLE&s=somepner",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE on /delete",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/delete",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST on /get",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/get?q=book_title&M=MAPLE&s=somepner",
+				"method": "POST",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET on /put",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/put?q=book_title&M=MAPLE&s=somepner",
+				"method": "GET",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT on /DELETE",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/delete?q=book_title&M=MAPLE&s=somepner",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE on /post",
+			"request": {
+				"url": "http://johnwilliams-test.apigee.net/csci-3600-hw2/post?q=book_title&M=MAPLE&s=somepner",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "variable",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "variable1",
+						"value": "X of the money you dont have",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

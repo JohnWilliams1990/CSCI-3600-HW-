@@ -1,3 +1,6 @@
+//John Williams 
+//105201054
+
 // load the express package and create our app
 var express = require('express');
 var path = require('path');
@@ -13,22 +16,17 @@ var parsedUrl = url.parse(urlValue, true, true);
 
 
 
-	function funct(req)//, response)
-	{
-
+	function funct(req){
 	var method = req.method;
 	console.log(method);
-
-	
-							//var object = Object.keys(req.res);
-
+						//var object = Object.keys(req.res);
  	 var response = {
  	 			 'method' : method,
  	 			 'headers' : req.headers,
 				 'query' : req.query,
 				 'body' : req.body
 				  //'errors' : Json.message:"PUT ERRORS HERE FROM CONDITIONS AS VARIABLE"; // terinary object in the query or if else before
-				};
+	};
 
 var object = Object.keys(req.headers); //'for i in Object' creates a for loop to go through the object
 var object1 = Object.keys(req.query); 
